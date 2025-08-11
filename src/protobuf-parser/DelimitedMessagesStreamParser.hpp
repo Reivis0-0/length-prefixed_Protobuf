@@ -18,7 +18,7 @@ class DelimitedMessagesStreamParser
     while(!m_buffer.empty())
     {
       size_t consumed = 0;
-      auto  masg = parseDelimited<MessageType>(m_buffer.data(), m_bufer.size(), &consumed);
+      auto  msg = parseDelimited<MessageType>(m_buffer.data(), m_buffer.size(), &consumed);
       
       if(msg && consumed > 0)
       {

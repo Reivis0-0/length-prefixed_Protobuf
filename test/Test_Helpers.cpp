@@ -1,5 +1,4 @@
-#include <protobuf_parser/helpers.hpp>
-#include <protobuf/message.pb.h>
+#include "protobuf-parser/helpers.hpp"
 
 #include <gtest/gtest.h>
 
